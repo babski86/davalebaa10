@@ -1,0 +1,132 @@
+@font-face {
+  font-family: bazuka;
+  src: url(../fonts/helveticaneuelt_roman.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  margin: auto;
+  background-color: #0a22f4;
+  margin-top: 200px;
+  padding-top: 14%;
+  padding-left: 22%;
+  padding-right: 22%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+
+  gap: 15.8%;
+}
+.left {
+  /* padding-right: 25%;
+  padding-bottom: 40px; */
+}
+.right {
+  margin-top: 5%;
+  max-width: 685px;
+}
+h2 {
+  font-size: 32px;
+  color: #ffffff;
+}
+.text {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  width: 463px;
+  font-family: bazuka;
+}
+iframe:hover {
+  border-radius: 15px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.map {
+  margin-top: 68px;
+  display: inline-block;
+}
+.map:hover {
+  width: 463px;
+  height: 197px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.contact {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 98px;
+
+  a {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
+.icon {
+  background-color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-item {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: bazuka;
+}
+input {
+  background-color: #0a22f4;
+  border: none;
+  border-bottom: 1px solid #ffffff4d;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 463px;
+}
+label {
+  color: #ffffff;
+}
+textarea {
+  background-color: #0a22f4;
+  border: none;
+  border-bottom: 1px solid #ffffff4d;
+  width: 463px;
+  height: 120px;
+  resize: none;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  width: 151px;
+  height: 55px;
+  border-radius: 28px;
+  background-color: #ffffff;
+  color: #171717;
+  border: none;
+  font-family: bazuka;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+vegar movaswari bolos damateba da ra mainteresebs 
